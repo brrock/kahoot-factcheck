@@ -1,0 +1,20 @@
+{
+  "name": "factcheck",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^1.5.4",
+    "ai": "^5.0.0",
+    "commander": "^14.0.2",
+    "csv-parser": "^3.2.0",
+    "exa-js": "^2.0.12",
+    "open": "^11.0.0"
+  }
+}
